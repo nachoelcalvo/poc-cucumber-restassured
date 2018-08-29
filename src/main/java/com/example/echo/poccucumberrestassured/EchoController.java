@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class EchoController {
 
     @GetMapping(value = {"/version"})
-    public String getVersion() {
-        return "1.0";
+    public Version getVersion() {
+        return new Version("1.0");
     }
 }
