@@ -1,5 +1,6 @@
-Feature:
-  Scenario: User making call to obtain version
-    When the user calls /version
-    Then the user receives and status code 200
-    And the user receives server version 1.0
+Feature: Obtener polizas
+
+  Scenario: Obtener una poliza del ramo Auto
+    When El usuario invoca al servicio de polizas con id 2
+    Then El usuario obtine la poliza correctamente
+    And El ramo de la poliza recibida es auto
