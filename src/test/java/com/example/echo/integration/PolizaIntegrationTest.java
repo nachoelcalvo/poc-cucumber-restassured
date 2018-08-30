@@ -13,11 +13,11 @@ public class PolizaIntegrationTest {
 
     public static final int STATUS_OK = 200;
 
-    // Test created for POC purposes. An instance of POC-Poliza service must be runnig before
-    // execution of following test suite
+    // Test created for POC purposes. An instance of POC-Poliza service must be running
+    // before the execution of following test suite
     @Before
     public void setUp() throws Exception {
-        baseURI = "http://locahost";
+        baseURI = "http://localhost";
         port = 8080;
     }
 

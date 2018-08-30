@@ -1,3 +1,5 @@
+# BDD Test suite created for POC purposes.
+# An instance of POC-Poliza service must be runnig locally before the execution of following scenario
 Feature: Obtener polizas
 
   Scenario: Obtener una poliza del ramo Auto

@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-public class EchoController {
+public class PolizaController {
 
     private PolizaService polizaService;
 
-    public EchoController(PolizaService polizaService) {
+    public PolizaController(PolizaService polizaService) {
         this.polizaService = polizaService;
     }
 
