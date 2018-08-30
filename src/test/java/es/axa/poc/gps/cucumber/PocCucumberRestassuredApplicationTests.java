@@ -1,4 +1,4 @@
-package com.example.echo.poccucumberrestassured;
+package es.axa.poc.gps.cucumber;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

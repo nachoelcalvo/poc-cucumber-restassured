@@ -1,4 +1,4 @@
-package com.example.echo.integration;
+package es.axa.poc.gps.integration;
 
 import org.junit.Before;
 import org.junit.Test;

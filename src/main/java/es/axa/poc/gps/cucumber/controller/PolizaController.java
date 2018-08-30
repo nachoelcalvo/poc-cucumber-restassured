@@ -1,7 +1,7 @@
-package com.example.echo.poccucumberrestassured.controller;
+package es.axa.poc.gps.cucumber.controller;
 
-import com.example.echo.poccucumberrestassured.modelo.Poliza;
-import com.example.echo.poccucumberrestassured.service.PolizaService;
+import es.axa.poc.gps.cucumber.model.Poliza;
+import es.axa.poc.gps.cucumber.service.PolizaService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package com.example.echo.poccucumberrestassured;
+package es.axa.poc.gps.cucumber;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;

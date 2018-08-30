@@ -1,7 +1,7 @@
-package com.example.echo.poccucumberrestassured.service;
+package es.axa.poc.gps.cucumber.service;
 
-import com.example.echo.poccucumberrestassured.modelo.Poliza;
-import com.example.echo.poccucumberrestassured.modelo.Producto;
+import es.axa.poc.gps.cucumber.model.Poliza;
+import es.axa.poc.gps.cucumber.model.Producto;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,4 +1,4 @@
-package com.example.echo.poccucumberrestassured.modelo;
+package es.axa.poc.gps.cucumber.model;
 
 import lombok.Data;
 
