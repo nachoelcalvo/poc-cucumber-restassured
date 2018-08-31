@@ -1,25 +1,18 @@
 package es.axa.poc.gps.integration;
 
-import org.junit.Before;
+import es.axa.poc.gps.BaseIntegration;
 import org.junit.Test;
 
 import java.util.concurrent.TimeUnit;
 
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.when;
 import static org.hamcrest.Matchers.lessThan;
 import static org.hamcrest.core.Is.is;
 
-public class PolizaIntegrationTest {
+public class PolizaIntegrationTest extends BaseIntegration {
 
-    public static final int STATUS_OK = 200;
-
-    // Test created for POC purposes. An instance of POC-Poliza service must be running
-    // before the execution of following test suite
-    @Before
-    public void setUp() throws Exception {
-        baseURI = "http://localhost";
-        port = 8080;
-    }
+    private static final int STATUS_OK = 200;
 
     @Test
     public void whenPolizaRequestGet_ThenOk() {
@@ -57,5 +50,4 @@ public class PolizaIntegrationTest {
         then().
                 log().ifStatusCodeIsEqualTo(STATUS_OK);
     }
-
 }
