@@ -1,7 +1,7 @@
-package es.axa.poc.gps.cucumber.service;
+package poc.cucumber.service;
 
-import es.axa.poc.gps.cucumber.model.Poliza;
-import es.axa.poc.gps.cucumber.model.Producto;
+import poc.cucumber.model.Poliza;
+import poc.cucumber.model.Producto;
 import org.springframework.stereotype.Service;
 
 @Service

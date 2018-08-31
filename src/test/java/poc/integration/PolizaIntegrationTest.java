@@ -1,6 +1,6 @@
-package es.axa.poc.gps.integration;
+package poc.integration;
 
-import es.axa.poc.gps.BaseIntegration;
+import poc.BaseIntegration;
 import org.junit.Test;
 
 import java.util.concurrent.TimeUnit;

@@ -1,4 +1,4 @@
-package es.axa.poc.gps;
+package poc;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
 import org.junit.AfterClass;

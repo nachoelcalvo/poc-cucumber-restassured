@@ -1,4 +1,4 @@
-package es.axa.poc.gps.cucumber;
+package poc.cucumber;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;

@@ -1,7 +1,7 @@
-package es.axa.poc.gps.cucumber.controller;
+package poc.cucumber.controller;
 
-import es.axa.poc.gps.cucumber.model.Poliza;
-import es.axa.poc.gps.cucumber.service.PolizaService;
+import poc.cucumber.model.Poliza;
+import poc.cucumber.service.PolizaService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;

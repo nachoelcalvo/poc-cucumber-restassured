@@ -1,4 +1,4 @@
-package es.axa.poc.gps.cucumber.model;
+package poc.cucumber.model;
 
 import lombok.Data;
 

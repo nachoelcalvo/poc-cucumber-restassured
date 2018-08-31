@@ -1,4 +1,4 @@
-package es.axa.poc.gps.cucumber;
+package poc.cucumber;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
